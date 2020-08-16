@@ -19,3 +19,5 @@ python manage.py makemigrations
 python manage.py sqlmigrate travello [version no we get  after makemigration]
 
 python manage.py migrate  (to apply changes in DB)
+
+pip install psycopg2 (django to postgres connection)
