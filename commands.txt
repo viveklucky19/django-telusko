@@ -1,0 +1,15 @@
+django-admin --version
+
+pip install virtualenvwrapper-win
+
+mkvirtualenv [virtualenvname]
+
+pip install django (inside the virtual env, outside django won't be found)
+
+django-admin startproject [anyname]
+
+workon [vitualenvname]
+
+python manage.py startapp calc
+
+python manage.py collectstatic
