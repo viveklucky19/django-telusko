@@ -13,3 +13,9 @@ workon [vitualenvname]
 python manage.py startapp calc
 
 python manage.py collectstatic
+
+python manage.py makemigrations
+
+python manage.py sqlmigrate travello [version no we get  after makemigration]
+
+python manage.py migrate  (to apply changes in DB)
